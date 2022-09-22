@@ -37,7 +37,7 @@ def openpyxl_xlxs():
     novo_balancete.save('novo_balancete.xlsx')
 
     
-#função com o endereço da pagina
+
 def main():
     endereco = 'http://dados.tce.rs.gov.br/dados/municipal/balancete-despesa/2022.csv'
     dados = page_reader(endereco)
